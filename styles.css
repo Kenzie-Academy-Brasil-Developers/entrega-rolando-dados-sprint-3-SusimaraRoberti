@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("https://diariodorio.com/wp-content/uploads/2018/12/Roleta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+button {
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid #114168;
+  background-color: #1f6eaf;
+  color: white;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #114168;
+  transition: 0.5s;
+}
+
+#titulo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#resultado {
+  background-color: rgb(255, 255, 255);
+  margin: 0 360px;
+  border-radius: 1rem;
+}
+
+.fundo {
+  background-color: rgba(255, 255, 255, 0.507);
+  height: 100vh;
+}
+
+#resultado {
+  display: flex;
+  justify-content: center;
+}
+
+.barra {
+  background-color: #1f6eaf;
+  height: 18px;
+  margin: 16px;
+  border-radius: 5px;
+}
